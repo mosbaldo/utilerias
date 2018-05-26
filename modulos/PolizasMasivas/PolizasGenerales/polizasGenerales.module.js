@@ -1,0 +1,1 @@
+var Generales = angular.module('Utilerias.PolizasMasivas.Generales', ['ngHandsontable']);

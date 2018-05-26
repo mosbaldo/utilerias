@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" media="screen" href="node_modules/handsontable/dist/handsontable.full.min.css">
+        <style>.active { color: red; font-weight: bold; }</style>
+    </head>
+    
+    <body ng-app="Utilerias">
+        <a ui-sref="polizas-masivas" ui-sref-active="active">Polizas</a>
+        <a ui-sref="about" ui-sref-active="active">About</a>
+        
+        <ui-view></ui-view>
+    </body>
+
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="node_modules/@uirouter/angularjs/release/angular-ui-router.min.js"></script>
+
+    <script src="node_modules/handsontable/dist/handsontable.full.min.js"></script>
+    <script src="node_modules/ng-handsontable/dist/ngHandsontable.min.js"></script>
+    
+    <script src="modulos/main.module.js"></script>
+    <script src="modulos/PolizasMasivas/polizasMasivas.module.js"></script>
+    <script src="modulos/PolizasMasivas/PolizasGenerales/polizasGenerales.module.js"></script>
+    
+    <script src="modulos/PolizasMasivas/config/routes.js"></script>
+    <script src="modulos/config/routes.js"></script>
+    
+    <script src="modulos/main.controller.js"></script>
+    <script src="modulos/PolizasMasivas/PolizasGenerales/Componentes/plantillaCarga/plantillaCarga.component.js"></script>
+
+    <!-- <script src="//unpkg.com/show-current-browser-url"></script> -->
+    <script src="//unpkg.com/d3@3"></script>
+    <script src="//unpkg.com/@uirouter/visualizer@4.0.2"></script>
+
+</html>

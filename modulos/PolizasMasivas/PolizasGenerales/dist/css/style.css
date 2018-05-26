@@ -1,0 +1,511 @@
+md-datepicker {
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+}
+
+.md-datepicker-input-container {
+    width: 70%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+#perfilVsCandidatos canvas {
+    height: 350px;
+    width: 700px
+}
+
+.graphContainer,
+.graphDetail {}
+
+.progress-mini,
+.progress-mini .progress-bar {
+    height: 15px;
+    margin-bottom: 0;
+}
+
+.mapWithDetails {
+    border: 2px solid #DFE4EA;
+}
+
+.geoChartContainer {
+    width: 100%;
+    padding: 10px;
+}
+
+
+/*.borderBlue {
+    border: 1px solid blue;
+}*/
+
+.stat-list {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.stat-list li:first-child {
+    margin-top: 0px;
+}
+
+.stat-list li {
+    margin-top: 15px;
+    position: relative;
+}
+
+.stat-percent {
+    float: right;
+}
+
+.progress-small,
+.progress-mini {
+    margin-top: 5px;
+}
+
+.inner-center {
+    text-align: center;
+}
+
+.ibox {
+    clear: both;
+    background-color: #ffffff;
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding: 0;
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.ibox-title {
+    color: inherit;
+    margin-bottom: 0;
+    padding: 7px;
+    min-height: 48px;
+}
+
+.ibox-title2 {
+    color: inherit;
+    margin-bottom: 0;
+    padding: 7px;
+}
+
+.ibox-title strong {
+    display: block;
+    padding-top: 5px;
+    border-bottom: 1px solid #666;
+}
+
+.ibox-title2 strong {
+    display: block;
+    padding-top: 5px;
+    border-bottom: 1px solid #666;
+}
+
+.ibox-content {
+    clear: both;
+    color: inherit;
+    padding: 15px 20px 20px 20px;
+}
+
+.bg-white3 .ibox {
+    clear: both;
+    background-color: #ffffff;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 20px 0 10px 0;
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.ibox-content2 {
+    clear: both;
+    color: inherit;
+    padding: 0px 20px 0px 20px;
+}
+
+.ibox-title .label {
+    float: left;
+    margin-left: 4px;
+}
+
+.nav .label,
+.ibox .label {
+    font-size: 10px;
+}
+
+.label-info,
+.badge-info {
+    background-color: #23c6c8;
+    color: #FFFFFF;
+}
+
+.label {
+    background-color: #d1dade;
+    color: #5e5e5e;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    padding: 3px 8px;
+    text-shadow: none;
+}
+
+.ibox-title h5 {
+    display: inline-block;
+    font-size: 14px;
+    margin: 0 0 7px;
+    padding: 0;
+    text-overflow: ellipsis;
+    float: left;
+}
+
+.font-bold {
+    font-weight: 600;
+}
+
+
+/*modf*/
+
+.panel-indicador {
+    /*width: 250px;*/
+    margin: 5px 0;
+}
+
+.pie-de-grafica {
+    text-align: center;
+    border-top: 1px solid #666;
+    margin: 20px 0 0;
+    padding: 10px 0 0;
+}
+
+.ibox-content .text-info,
+.ibox-content .text-danger {
+    font-size: 17px;
+    text-align: center;
+}
+
+.ibox-content2 .text-info,
+.ibox-content2 .text-danger {
+    font-size: 18px;
+    text-align: center;
+}
+
+.top-cushion {
+    margin-top: 56px;
+}
+
+section.content.container-fluid.ng-scope {
+    padding: 0 50px;
+}
+
+.panel.panel-indicador {
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.bg-white3 {
+    background-color: #eef5fa;
+    padding: 15px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2) inset;
+}
+
+.bg-white-top {
+    background-color: #fff;
+    padding-top: 15px;
+    -webkit-border-radius: 3px 3px 0 0;
+    -moz-border-radius: 3px 3px 0 0;
+    border-radius: 3px 3px 0 0;
+}
+
+.bg-white-bottom {
+    background-color: #fff;
+    padding: 15px 0;
+    -webkit-border-radius: 0 0 3px 3px;
+    -moz-border-radius: 0 0 3px 3px;
+    border-radius: 0 0 3px 3px;
+}
+
+.cushion-end {
+    height: 100px;
+}
+
+.panel {
+    background-color: #fff;
+    margin-bottom: 0;
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.panel-detail {
+    min-height: 80px;
+}
+
+.ibox-content h2 {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.ibox-content2 h2 {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.ibox.float-e-margins p {
+    padding: 5px;
+}
+
+.table-responsive.panel h2 {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+
+/*IPAD LANDSCAPE*/
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .ibox-content {
+        padding: 15px 5px 20px !important;
+    }
+    .col-md-2 {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    h2 {
+        font-size: 18px !important;
+    }
+
+}
+
+
+/*IPAD PORTRAIT*/
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    .ibox-title strong {
+        font-size: 8px !important;
+    }
+}
+
+
+/*QUERY FOR XS*/
+
+@media screen and (max-width:767px) {
+    .top-cushion {
+        margin-top: auto !important;
+    }
+}
+
+@media screen and (max-width:1200px) {
+
+        /*botones*/
+.btn1{font-size:.8em!important;
+background-color:white;}
+.btn2{font-size:.8em!important;
+background-color:azure;}
+.btn3{font-size:.8em!important;
+background-color:#f3fcda;}
+.btn4{font-size:.8em!important;
+background-color:#defadc;}
+.btn5{font-size:.8em!important;
+background-color:#fcdada;}
+}
+
+
+
+/*correctivo para fondo de breacrumbs*/
+
+.breadcrumb {
+    background-color: transparent!important;
+}
+
+
+/*correctivo para vínculos de listado de empresas*/
+
+.marTop {
+    margin-top: 10px;
+    display: block;
+}
+
+
+/*margenes para espaciado*/
+
+.top-buffer {
+    margin-top: 10px;
+}
+
+.top-buffer2 {
+    margin-top: 20px;
+}
+
+.top-buffer3 {
+    margin-top: 30px;
+}
+
+.top-buffer4 {
+    margin-top: 25px;
+}
+
+.bottom-buffer {
+    margin-bottom: 10px;
+}
+
+.bottom-buffer2 {
+    margin-bottom: 20px;
+}
+
+.bottom-buffer3 {
+    margin-bottom: 30px;
+}
+
+
+/*h2 interno*/
+
+.innerTitle {
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+
+/*salarios promedio*/
+
+.salProm {
+    font-size: 1.5em;
+    color: cadetblue;
+}
+/*botones*/
+.btn1{font-size:.9em;
+background-color:white;}
+.btn2{font-size:.9em;
+background-color:azure;}
+.btn3{font-size:.9em;
+background-color:#f3fcda;}
+.btn4{font-size:.9em;
+background-color:#defadc;}
+.btn5{font-size:.9em;
+background-color:#fcdada;}
+
+.btn-search {
+    background-color: #00a65a;
+    color: white
+}
+
+.table-data {
+    font-size: 12px;
+}
+
+.table-data>tbody>tr>th {
+    font-weight: bold;
+}
+
+.fa-caret-down, .fa-caret-up {
+    color: black;
+    font-size: 14px;
+}
+
+/*
+ * For the auto-complete
+*/
+
+md-autocomplete input:not(.md-input) {
+    display: block;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-image: none;
+}
+
+md-autocomplete md-autocomplete-wrap {
+    height: 34px;
+    box-shadow: none !important;
+}
+
+
+md-autocomplete {
+    height: 34px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    border-color: #d2d6de;
+}
+
+.period-label {
+    font-size: 12px;
+}
+
+small.help-legend {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1;
+    color: #777;
+}
+
+
+@media (min-width: 768px) {
+    .sidebar-mini.sidebar-collapse .main-sidebar {
+        width: 70px !important;
+    }
+    .sidebar-mini.sidebar-collapse .main-header .logo {
+        width: 70px;
+    }
+    .sidebar-mini.sidebar-collapse .main-header .navbar {
+        margin-left: 70px;
+    }
+}
+
+.color-list {
+    list-style:none;
+    font-size: 10px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.color-circle {
+    margin: 5px 10px 5px 0px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.graph-title {
+    color: #666;
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
+    font-size: 12;
+    font-weight: bold;
+    text-align: center;
+}
+
+.salaryCell {
+    width: 80px
+}

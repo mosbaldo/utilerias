@@ -1,0 +1,18 @@
+{
+  "name": "utilerias",
+  "version": "0.1.0",
+  "description": "Modulo front de utilerías para proyecto SIGAIF",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Miguel Osbaldo Gallardo Toledo <miguel.gallardo@infotec.mx>",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@uirouter/angularjs": "^1.0.18",
+    "@uirouter/visualizer": "^6.0.0",
+    "angular": "^1.6.10",
+    "ng-handsontable": "^0.13.0"
+  }
+}

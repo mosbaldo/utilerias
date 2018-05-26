@@ -1,0 +1,1 @@
+var polizasMasivas = angular.module('Utilerias.PolizasMasivas', []);
