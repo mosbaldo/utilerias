@@ -1,0 +1,18 @@
+<!--
+   - Template principal del Módulo de Pólizas masivas
+   - Author: Miguel Osbaldo Gallardo Toledo
+   - Fecha de inicio: 25/05/2018
+   - 
+   - Este template es un pequeño menú para referenciar a los submódulos pertenecientes al módulo de Pólizas masivas.
+   -
+   - TODO: Evaluar si se conserva este template y se estiliza para su implementación o se busca otra opción para
+   - el ruteo (estados) de los submódulos pertenecientes a éste.
+   -->
+<div>
+    <li><a ui-sref="polizas-masivas.generales" ui-sref-active="active">Generales</a></li>
+    <li><a ui-sref="polizas-masivas.comisiones" ui-sref-active="active">Comisiones</a></li>
+</div>
+<div>
+    <ui-view></ui-view>
+</div>
+<plantillaCarga></plantillaCarga>

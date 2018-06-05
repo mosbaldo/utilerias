@@ -1,0 +1,54 @@
+<!--
+   - Template del componente plantilla de carga del submódulo Pólizas generales
+   - Author: Miguel Osbaldo Gallardo Toledo
+   - Fecha de inicio: 25/05/2018
+   - 
+   - Este template es el que muestra la plantilla de tablas tipo excel para cargar los datos que el usuario
+   - cargue para su procesamiento en SIG@IF.
+   -
+   - TODO: Desagregar en más componentes para mayor control, posiblescomponentes definidos: cabecera y detalles.
+   -->
+
+
+<div layout="col" layout-margin>
+    <div class="card">
+        <div class="container">
+            <h2>Cabecera</h2>
+            <handsontable
+                hot-id="htCabecera"
+                data="$ctrl.rowsCabecera"
+                settings="$ctrl.cabeceraConfig"
+                columns="$ctrl.colsCabecera">
+            </handsontable>
+            <md-button 
+                class="md-raised" 
+                ng-click="$ctrl.agregarRetenciones()">
+                Agregar retención
+            </md-button>
+            <md-button 
+                class="md-raised"
+                ng-click="$ctrl.removerRetenciones()">
+                Remover retención
+            </md-button>
+            <h2>Detalles</h2>
+            <handsontable
+                hot-id="htDetalles"
+                settings = "$ctrl.detallesConfig"
+                columns="$ctrl.colsDetalles">
+            </handsontable>
+            <md-button
+                class="md-raised"
+                ng-click="$ctrl.agregarImpuestos()">
+                Agregar impuesto
+            </md-button>
+            <md-button
+                class="md-raised"
+                ng-click="$ctrl.removerImpuestos()">
+                Remover impuesto
+            </md-button>
+        </div>
+    </div>
+</div>
+
+    <md-button class="md-raised">Agregar documento</md-button>
+    <md-button class="md-raised">Generar pólizas</md-button>

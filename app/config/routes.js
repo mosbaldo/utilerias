@@ -1,4 +1,13 @@
-mainModule.config(function($stateProvider, $urlRouterProvider) {
+/**
+ *  Configuración principal del proyecto
+ *  Author: Miguel Osbaldo Gallardo Toledo
+ *  Fecha de inicio: 25/05/2018
+ *  
+ *  Este módulo es el encargado de establecer la configuración del módulo de Utilerías,
+ *  hasta el momento, sólo se ha agregado la configuración de los estados del aplicativo.
+ **/
+
+angular.module('Utilerias').config(function($stateProvider, $urlRouterProvider) {
 
     $urlRouterProvider.otherwise('/');
 
@@ -6,7 +15,7 @@ mainModule.config(function($stateProvider, $urlRouterProvider) {
         {
           name: 'polizas-masivas',
           url: '/polizas-masivas',
-          templateUrl: 'modulos/PolizasMasivas/polizasMasivas.html'
+          templateUrl: 'app/PolizasMasivas/polizasMasivas.html'
         },
         {
           name: 'about',
